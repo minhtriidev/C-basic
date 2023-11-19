@@ -1,8 +1,9 @@
 ﻿# **C-basic**
 Trần Minh Trí
+
 Lịch học: thứ 3, 7; 8:9 pm
 
-# **Mục Lục**
+## **Mục Lục**
 
 [Lesson 1: Biến và Hàm](#Lesson1)
 
@@ -11,7 +12,7 @@ Lịch học: thứ 3, 7; 8:9 pm
 [Lesson 3: Vòng lặp: for và while](#Lesson3)
 
 <a name="Lesson1"></a>
-## **Lesson 1: Biến và Hàm** 
+# **Lesson 1: Biến và Hàm** 
 Ngày: 7/11/2023
 ### **Biến**
 - Các biến nguyên thủy: float, double....
@@ -27,7 +28,7 @@ int main() {
     return 0;
 }
 ```
-- Ta thấy kết quả: 
+Ta thấy kết quả: 
 
 >size: 1 byte
 
@@ -57,7 +58,7 @@ int main() {
   return 0;
 }
 ```
-- Ta thấy kết quả:
+Ta thấy kết quả:
 ```
 lesson_1.c:8:9: warning: large integer implicitly truncated to unsigned type [-Woverflow]
    var = 256;
@@ -133,7 +134,7 @@ int main() {
     return 0;
 }
 ```
-- Ta thấy kết quả:
+Ta thấy kết quả:
 ```
 ID: 1000, TEN: Hoang, TUOI: 19
 ```
@@ -153,7 +154,7 @@ int main() {
     return 0;
 }
 ```
-- Ta thấy kết quả:
+Ta thấy kết quả:
 ```
 Tong a + b = 15
 ```
@@ -177,7 +178,7 @@ int main() {
 }
 
 ```
-- Ta thấy kết quả:
+Ta thấy kết quả:
 ```
 Thuogn a / b = 0.875000
 ```
@@ -188,7 +189,7 @@ Thuogn a / b = 0.875000
 
 
 <a name="Lesson2"></a>
-## **Lesson 2: Câu điều kiện: if else và switch case** 
+# **Lesson 2: Câu điều kiện: if else và switch case** 
 
 **Mệnh đề if-else trong C** được sử dụng để kiểm tra một biểu thức điều kiện nào đó có đúng hay không, nếu đúng thì thực thi những câu lệnh bên trong khối lệnh if và ngược lại nếu sai thì nó sẽ bỏ qua những câu lệnh đó. Có ba dạng của câu lệnh if trong C.
 
@@ -215,7 +216,7 @@ int main()
     return 0;
 }
 ```
-- Ta thấy kết quả:
+Ta thấy kết quả:
 ```
 Test
 ```
@@ -247,7 +248,7 @@ int main()
     return 0;
 }
 ```
-- Ta thấy kết quả:
+Ta thấy kết quả:
 ```
 False
 ```
@@ -291,10 +292,10 @@ int main()
     return 0;
 }
 ```
-- Ta thấy kết quả:
+Ta thấy kết quả:
 ```
 HOC SINH GIOI
 ```
 
 <a name="Lesson3"></a>
-## **Lesson 3: Vòng lặp: for và while** 
+# **Lesson 3: Vòng lặp: for và while** 

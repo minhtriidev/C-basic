@@ -94,7 +94,7 @@ int main(){
         break;
 
     default:
-        printf("So ban chon khong hop le");
+        printf("So da chon khong hop le");
         break;
     }
 

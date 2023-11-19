@@ -5,7 +5,9 @@ Lịch học: thứ 3, 7; 8:9 pm
 # **Mục Lục**
 
 [Lesson 1: Biến và Hàm](#Lesson1)
+
 [Lesson 2: Câu điều kiện: if else và switch case](#Lesson2)
+
 [Lesson 3: Vòng lặp: for và while](#Lesson3)
 
 <a name="Lesson1"></a>

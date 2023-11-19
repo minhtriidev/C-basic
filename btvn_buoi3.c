@@ -1,11 +1,8 @@
-#include <stdio.h>
-#include <stdint.h>
-#include <stdlib.h>
+#include "Menu.h"
 
-void khoangCachGiuaHaiDiem(int x1, int y1; int x2, int y2);
-void 
-
-int main(){
-
+/*--------------------Chuong trinh chinh-------------------*/
+int main()
+{
+    Menu();
     return 0;
 }

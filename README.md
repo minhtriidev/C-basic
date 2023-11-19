@@ -1,7 +1,14 @@
 ﻿# **C-basic**
 Trần Minh Trí
-
 Lịch học: thứ 3, 7; 8:9 pm
+
+# **Mục Lục**
+
+[Lesson 1: Biến và Hàm](#Lesson1)
+[Lesson 2: Câu điều kiện: if else và switch case](#Lesson2)
+[Lesson 3: Vòng lặp: for và while](#Lesson3)
+
+<a name="Lesson1"></a>
 ## **Lesson 1: Biến và Hàm** 
 Ngày: 7/11/2023
 ### **Biến**
@@ -177,6 +184,8 @@ Thuogn a / b = 0.875000
 - Hàm có thể có hoặc không có tham số.
 - Có sự lặp đi lặp lại nhiều lần
 
+
+<a name="Lesson2"></a>
 ## **Lesson 2: Câu điều kiện: if else và switch case** 
 
 **Mệnh đề if-else trong C** được sử dụng để kiểm tra một biểu thức điều kiện nào đó có đúng hay không, nếu đúng thì thực thi những câu lệnh bên trong khối lệnh if và ngược lại nếu sai thì nó sẽ bỏ qua những câu lệnh đó. Có ba dạng của câu lệnh if trong C.
@@ -284,3 +293,6 @@ int main()
 ```
 HOC SINH GIOI
 ```
+
+<a name="Lesson3"></a>
+## **Lesson 3: Vòng lặp: for và while** 

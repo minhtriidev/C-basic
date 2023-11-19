@@ -1,5 +1,5 @@
 ﻿# **C-basic**
-TRẦN MINH TRÍ
+Trần Minh Trí
 
 Lịch học: thứ 3, 7; 8:9 pm
 ## **Lesson 1: Biến và Hàm** 
@@ -179,8 +179,108 @@ Thuogn a / b = 0.875000
 
 ## **Lesson 2: Câu điều kiện: if else và switch case** 
 
-VD: 
+**Mệnh đề if-else trong C** được sử dụng để kiểm tra một biểu thức điều kiện nào đó có đúng hay không, nếu đúng thì thực thi những câu lệnh bên trong khối lệnh if và ngược lại nếu sai thì nó sẽ bỏ qua những câu lệnh đó. Có ba dạng của câu lệnh if trong C.
+
+- Mệnh đề if.
+Mệnh đề if được sử dụng để kiểm tra giá trị dạng boolean của điều kiện. Khối lệnh sau if được thực thi nếu giá trị của điều kiện là True. **Chỉ có 0 là False, còn khác 0 đều là True**. Cú pháp:
 ```
+if (condition) {  
+  // khối lệnh này được thực thi nếu condition = true
+}
+```
+VD: 
+```c
+#include <stdio.h>
+#include <stdint.h>
 
+int main()
+{
+    int test = 2;
 
+    if (test)
+    {
+        printf("Test\n");
+    }
+    return 0;
+}
+```
+- Ta thấy kết quả:
+```
+Test
+```
+- Mệnh đề if-else.
+Mệnh đề if được sử dụng để kiểm tra giá trị dạng boolean của điều kiện. Khối lệnh sau if được thực thi nếu giá trị của điều kiện là True, nếu là False thì chỉ có khối lệnh sau else được thực hiện. Cú pháp:
+```
+if (condition) {  
+  // khối lệnh này được thực thi nếu condition = true
+} else {
+  // khối lệnh này được thực thi nếu condition = false
+}
+```
+VD: 
+```c
+#include <stdio.h>
+#include <stdint.h>
+
+int main()
+{
+    int test = 0;
+
+    if (test)
+    {
+        printf("True\n");
+    }
+    else{
+        printf("False\n");
+    }
+    return 0;
+}
+```
+- Ta thấy kết quả:
+```
+False
+```
+- Mệnh đề if-elseif-else.
+Mệnh đề if-elseif-else cũng kiểm tra giá trị dạng boolean của điều kiện. Nếu giá trị điều kiện if là True thì chỉ có khối lệnh sau if sẽ được thực hiện. Nếu giá trị điều kiện else if nào là True thì chỉ có khối lệnh sau if else đó sẽ được thực hiện… Nếu tất cả điều kiện của if và if else là False thì chỉ có khối lệnh sau else sẽ được thực hiện. Cú pháp:
+```
+if (condition1) {  
+  // khối lệnh này được thực thi nếu condition1 = true
+} else if (condition2) {
+  // khối lệnh này được thực thi nếu condition1 = false và condition2 = true
+...
+} else {
+  // khối lệnh này được thực thi nếu nếu tất cả những điều kiện trên = false
+}
+```
+VD: 
+```c
+#include <stdio.h>
+#include <stdint.h>
+
+int main()
+{
+    float a = 9;
+
+    if (a >= 8.0)
+    {
+        printf("HOC SINH GIOI\n");
+    }
+    else if (a >= 6.5)
+    {
+        printf("HOC SINH KHA\n");
+    }
+    else if (a >= 5)
+    {
+        printf("HOC SINH TRUNG BINH\n");
+    }
+    else
+    {
+        printf("HOC SINH YEU\n");
+    }
+    return 0;
+}
+```
+- Ta thấy kết quả:
+```
+HOC SINH GIOI
 ```

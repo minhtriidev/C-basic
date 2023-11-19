@@ -80,7 +80,7 @@ int main() {
 
 - Ta có kết quả:
 ```
-lesson_1.c:8:9: warning: overflow in implicit constant conversion [-Woverflow]     
+lesson1.c:8:9: warning: overflow in implicit constant conversion [-Woverflow]     
    var = 256;
          ^~~
 size: 1 byte

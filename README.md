@@ -3,18 +3,18 @@ Trần Minh Trí
 
 Lịch học: thứ 3, 7; 8:9 pm
 
-## **Mục Lục**
+# **MỤC LỤC**
 
-[Lesson 1: Biến và Hàm](#Lesson1)
+[**LESSON 1: BIẾN VÀ HÀM**](#Lesson1)
 
-[Lesson 2: Câu điều kiện: if else và switch case](#Lesson2)
+[**LESSON 2: CÂU ĐIỀU KIỆN: IF ESLE VÀ SWITCH CASE**](#Lesson2)
 
-[Lesson 3: Vòng lặp: for và while](#Lesson3)
+[**LESSON 3: VÒNG LẶP: FOR VÀ WHILE**](#Lesson3)
 
 <a name="Lesson1"></a>
-# **Lesson 1: Biến và Hàm** 
+# **LESSON 1: BIẾN VÀ HÀM** 
 Ngày: 7/11/2023
-### **Biến**
+### **1. BIẾN**
 - Các biến nguyên thủy: float, double....
 - Trong ngành Nhúng ta sử dụng thư viện "stdint" để định nghĩa lại.
 - Thư viện "stdio.h" giao tiếp với màn hình console (standard input output).
@@ -112,7 +112,7 @@ Kích thước 1 byte = 8 bit ~ phạm vi [-2^32 - 2^32-1].
 
 - Trong lập trình nhúng bộ nhớ giới hạn nên việc khai báo biến cực kì cẩn thận.
 
-**Hàm**
+**2. HÀM**
 
 VD: Hàm không trả về
 ```C
@@ -189,7 +189,9 @@ Thuogn a / b = 0.875000
 
 
 <a name="Lesson2"></a>
-# **Lesson 2: Câu điều kiện: if else và switch case** 
+# **LESSON 2: CÂU ĐIỀU KIỆN: IF ESLE VÀ SWITCH CASE** 
+
+**1. IF ESLE**
 
 **Mệnh đề if-else trong C** được sử dụng để kiểm tra một biểu thức điều kiện nào đó có đúng hay không, nếu đúng thì thực thi những câu lệnh bên trong khối lệnh if và ngược lại nếu sai thì nó sẽ bỏ qua những câu lệnh đó. Có ba dạng của câu lệnh if trong C.
 
@@ -297,5 +299,15 @@ Ta thấy kết quả:
 HOC SINH GIOI
 ```
 
+**2. SWITCH CASE**
+
 <a name="Lesson3"></a>
-# **Lesson 3: Vòng lặp: for và while** 
+
+# **LESSON 3: VÒNG LẶP: FOR VÀ WHILE** 
+
+# **LESSON 4: ENUM VÀ STRUCT** 
+
+enum thường đi với switch case
+bt: Nhập vào ngày tháng năm bất kỳ: vd 17/02/1999 --> thứ 5
+struct và enum khai báo giống nhau, chỉ khác cách lưu trữ
+**1. ENUM**
